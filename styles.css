@@ -1,0 +1,168 @@
+/* Enhances the overall look while maintaining Bootstrap's design integrity */
+body {
+  background-color: #eae8e8; /* Warm grey for a soft, neutral backdrop */
+}
+/* Navbar customizations to better align with Bootstrap's styling */
+.navbar-custom {
+    background-color: #0056b3; /* A deeper blue for a distinct look */
+}
+.navbar-custom .navbar-brand img {
+    border-radius: 50%; /* Keeps the circular profile picture */
+    margin-right: 8px;
+    border: 2px solid #fff; /* Ensures the border stands out */
+}
+
+/* Improves legibility and aesthetics of navbar links */
+.navbar-custom .nav-link {
+    color: #fff !important; /* Ensures text color consistency */
+    margin-right: 15px; /* Spacing between nav items */
+}
+.navbar-custom .nav-link:hover {
+    color: #d4d4d4 !important; /* Subtle hover effect */
+}
+
+/* Active navbar link styling for better visual feedback */
+.navbar-custom .navbar-nav .active>.nav-link {
+    background-color: #004494 !important; /* Slightly darker blue for contrast */
+    border-radius: 5px;
+}
+
+/* Card enhancements for a cleaner, more aligned look */
+.card {
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Card hover effect for a dynamic feel */
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling to better fit the chosen color scheme */
+.btn-custom {
+    background-color: #007bff; /* Bootstrap primary blue */
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.navbar-profile-pic {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+    object-fit: cover; 
+} 
+
+.navbar-text {
+    color: #ffffff; /* Adjust the color as needed */
+    font-size: 1rem; /* Adjust the size as needed */
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('img/hero.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #fff;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px; /* Gives buttons a pill shape */
+    box-shadow: 0 2px 4px #0002;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004494;
+    box-shadow: 0 4px 8px #0003;
+  }
+  
+  /* About Section */
+  .about-card {
+    background-color: #dcdcdc; /* Slightly darker than the body */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: -50px; /* Raises the card to overlap hero section slightly */
+  }
+  .about-section {
+    background-color: #f0f0f0; /* This is a light grey, adjust as needed */
+    padding: 50px 0; /* Adds padding above and below the content */
+  }
+  .about-me-image {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 50%; /* Keeps it circular */
+    max-width: 250px; /* Sets a maximum size */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for depth */
+  }
+  .about-section p {
+    font-size: 18px; /* Larger font size for readability */
+  }
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack items vertically */
+  }
+  /* Footer */
+  .footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-social-icons a {
+    padding: 0 10px;
+  }
+  
+  /* Ensure the footer sticks to the bottom */
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1 0 auto;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+  }
+  
+  /* Typography */
+  h1, h2, h3 {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Icons next to skills */
+  .skill-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff; /* Use a library like FontAwesome for icons */
+  }
