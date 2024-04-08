@@ -166,3 +166,26 @@ body {
     margin-right: 10px;
     color: #007bff; /* Use a library like FontAwesome for icons */
   }
+
+
+
+  /* Contact cards for Contact page! */
+
+  .contact-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Centers the card in the container */
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.card-link img {
+    margin-bottom: 4px; /* Aligns the icon with the text vertically */
+}
+
+/* Resume page*/
+
