@@ -1,1 +1,3 @@
 # Moxsom.github.io
+
+THIS IS MY PORTFOLIO PRACTICE PAGE - :D
